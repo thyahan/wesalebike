@@ -1,0 +1,8 @@
+.login {
+  @apply flex;
+  @apply justify-center;
+  @apply items-center;
+  @apply h-screen;
+  @apply w-screen;
+  @apply bg-blue-100;
+}

@@ -1,0 +1,86 @@
+.form {
+  @apply flex;
+  @apply flex-col;
+  @apply w-96;
+  @apply border;
+  @apply p-4;
+  @apply rounded-md;
+  @apply shadow-md;
+  @apply bg-white;
+}
+
+.form_title_label {
+  @apply w-full;
+  @apply h-10;
+  @apply text-base;
+  @apply font-bold;
+  @apply text-2xl;
+
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+}
+
+.form_label {
+  @apply w-full;
+  @apply h-10;
+  @apply text-base;
+  @apply font-bold;
+
+  @apply flex;
+  @apply items-end;
+}
+
+.form_input {
+  @apply w-full;
+  @apply h-10;
+  @apply px-3;
+  @apply text-base;
+  @apply font-bold;
+  @apply shadow-sm;
+
+  @apply border;
+  @apply border-solid;
+  @apply rounded-md;
+}
+
+.button_group {
+  @apply flex;
+  @apply justify-center;
+  @apply my-6;
+}
+
+.register {
+  @apply text-sm;
+  @apply flex;
+  @apply items-center;
+  @apply justify-center;
+}
+
+.link {
+  @apply text-sm;
+  @apply font-bold;
+  @apply text-blue-500;
+}
+
+.link:hover,
+.link:focus,
+.link:active {
+  @apply underline;
+}
+
+.form_button {
+  @apply h-10;
+  @apply px-6;
+  @apply border;
+  @apply rounded-md;
+}
+
+.submit {
+  @apply bg-blue-500;
+  @apply text-white;
+}
+
+.divider {
+  @apply w-10;
+}
